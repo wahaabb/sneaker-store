@@ -1,0 +1,360 @@
+/* HEADER CSS */
+
+
+header {
+
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 85% 85% / 30%;
+    background-position: center;
+
+}
+
+header .overlay {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #333;
+
+}
+
+.overlay h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+h3,
+p {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #333;
+    background: #fff;
+    margin-bottom: 50px;
+    box-shadow: 0 3px 20px 0 #0000003b;
+}
+
+.overlay button:hover {
+    cursor: pointer;
+}
+
+body {
+    background: rgb(115, 189, 227);
+    background: linear-gradient(90deg, rgba(115, 189, 227, 1) 11%, rgba(128, 162, 210, 1) 34%, rgba(169, 219, 219, 1) 69%, rgba(65, 139, 212, 1) 89%, rgba(106, 189, 207, 1) 100%, rgba(145, 5, 47, 1) 100%);
+    ;
+  }
+  
+
+/* CARDS CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+*
+{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.div1,.div2,.div3,.div4{
+    display: flex;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+a
+{
+    text-decoration: none;
+}
+.div3{
+  display: flex;
+  margin-top: 50px;
+ 
+}
+.product-card {
+    width: 380px;
+    position: relative;
+    box-shadow: 0 2px 7px black;
+    margin: 50px auto;
+    background: rgb(115,189,227);
+}
+
+.badge {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    background: red;
+    color: #fff;
+    padding: 3px 10px;
+}
+
+.product-tumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 50px;
+    background: rgb(115,189,227);
+}
+
+.product-tumb img {
+    /* max-width: 100%;
+    max-height: 100%; */
+    height: 300px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.product-details {
+    padding: 30px;
+}
+
+.product-catagory {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: red;
+    margin-bottom: 18px;
+}
+
+.product-details h4 a {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    color: rgb(85, 83, 83);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.product-details h4 a:hover {
+  color: white;
+
+}
+
+.product-details p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 18px;
+    color: rgb(85, 83, 83);
+}
+
+.product-bottom-details {
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.product-bottom-details div {
+    float: left;
+    width: 50%;
+}
+
+.product-price {
+    font-size: 18px;
+    color:darkgreen ;
+  
+    font-weight: 600;
+}
+
+.product-price small {
+    font-size: 80%;
+    font-weight: 400;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.product-links {
+    text-align: right;
+}
+
+.product-links a {
+    display: inline-block;
+    margin-left: 5px;
+    color: #e1e1e1;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.product-links a:hover {
+    color: #fbb72c;
+}
+ 
+
+
+/* LAST BUTTON  */
+.lastbtn {
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    cursor: pointer;
+    border: 3px solid rgb(115,189,227);
+    background: rgb(115,189,227);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.137);
+    margin: 0 auto;
+    padding: 20px 5px;
+    margin-bottom: 100px;
+  }
+  
+  .text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-right: 10px;
+    color: black;
+    padding: 15px;
+    
+  }
+  button a{
+    display: flex;
+    align-items: center;
+    justify-content: center space-between;
+  }
+  
+  .arrow path {
+    fill: black;
+  }
+  
+  .lastbtn:hover .arrow {
+    animation: slide-in-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  @keyframes slide-in-left {
+    0% {
+      transform: translateX(-8px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+  
+  .lastbtn:active {
+    transform: scale(0.97);
+  }
+/* FOOTER CSS */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  /* background: #3586ff; */
+  background: rgb(115, 189, 227);
+  background: linear-gradient(90deg, rgba(115, 189, 227, 1) 11%, rgba(128, 162, 210, 1) 34%, rgba(169, 219, 219, 1) 69%, rgba(65, 139, 212, 1) 89%, rgba(106, 189, 207, 1) 100%, rgba(145, 5, 47, 1) 100%);
+  margin-top: 10 0px;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: black;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: black;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: black;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+
+  100% {
+    background-positon-x: 0px;
+  }
+}

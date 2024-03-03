@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles3.css">
+  <link rel="icon" href="assets/naughty-removebg-preview.png">
+  <title>ORDER FORM</title>
+</head>
+
+<body>
+  <header style="background-image: url('assets/finalbf.jpg') ;">
+    <div class="overlay">
+      <button><a href="index.html" style="color: #333;"> HOME</a></button>
+      <button><a href="register.html" style="color: #333;">REGISTER</a> </button>
+      <button><a href="products.html" style="color: #333;">SNEAKERS</a></button>
+      <button><a href="order.html" style="color: #333;">ORDER NOW</a></button>
+      <h1>The Sneaker Store</h1>
+      <h3>Reasons for Choosing Us</h3>
+      <p style="color: white;">As trendsetters in the sneaker industry, we stay ahead of the curve by continuously sourcing the latest
+        releases and collaborations, providing our customers with access to the most coveted styles before they
+        hit mainstream markets. </p>
+      <br>
+
+    </div>
+
+  </header>
+  <main>
+    <div class="container">
+      <div class="title">
+        <h2>SNEAKER Order Form</h2>
+      </div>
+      <div class="d-flex">
+        <form action="" method="">
+          <label>
+            <span style="color: black;" class="fname"> First Name<span class="required">*</span></span>
+            <input type="text" name="fname">
+          </label>
+          <label>
+            <span style="color: black;" class="lname">Last Name <span class="required">*</span></span>
+            <input type="text" name="lname">
+          </label>
+          <label>
+            <span style="color: black;">Sneaker's Code <span class="required">*</span></span>
+            <input type="text" name="cn">
+          </label>
+
+         
+
+          <label>
+            <span style="color: black;">Country <span class="required">*</span></span>
+            <select name="selection">
+              <option value="select">Select a country...</option>
+              <option value="AFG">Pakistan</option>
+              <option value="ALA">Nepal</option>
+              <option value="ALB">Bangladesh</option>
+              <option value="DZA">Afghanistan</option>
+              <option value="ASM">India</option>
+
+            </select>
+          </label>
+          <label>
+            <span style="color: black;">Street Address <span class="required">*</span></span>
+            <input type="text" name="houseadd" placeholder="House number and street name" required>
+          </label>
+          <label>
+            <span>&nbsp;</span>
+            <input type="text" name="apartment" placeholder="Apartment, suite, unit etc. (optional)">
+          </label>
+          <label>
+            <span style="color: black;">Town / City <span class="required">*</span></span>
+            <input type="text" name="city">
+          </label>
+          <label>
+            <span style="color: black;">State / County <span class="required">*</span></span>
+            <input type="text" name="city">
+          </label>
+          <label>
+            <span style="color: black;">Postcode / ZIP <span class="required">*</span></span>
+            <input type="text" name="city">
+          </label>
+          <label>
+            <span style="color: black;">Phone <span class="required">*</span></span>
+            <input type="tel" name="city">
+          </label>
+          <label>
+            <span style="color: black;">Email Address <span class="required">*</span></span>
+            <input type="email" name="city">
+          </label>
+        </form>
+        <div class="Yorder">
+          <table>
+            <tr>
+              <th colspan="2">Your order</th>
+            </tr>
+            <tr>
+              <td>Product Name x 2(Qty)</td>
+              <td>$88.00</td>
+            </tr>
+            <tr>
+              <td>Subtotal</td>
+              <td>$88.00</td>
+            </tr>
+            <tr>
+              <td>Shipping</td>
+              <td>Free shipping</td>
+            </tr>
+          </table><br>
+          <div>
+            <input type="radio" name="dbt" value="dbt" checked> Direct Bank Transfer
+          </div>
+          <p>
+            Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your
+            order will not be shipped until the funds have cleared in our account.
+          </p>
+          <div>
+            <input type="radio" name="dbt" value="cd"> Cash on Delivery
+          </div>
+          <div>
+            <input type="radio" name="dbt" value="cd"> Paypal <span>
+              <img src="https://www.logolynx.com/images/logolynx/c3/c36093ca9fb6c250f74d319550acac4d.jpeg" alt=""
+                width="50">
+            </span>
+          </div>
+          <button class="orderbtn" type="button">Place Order</button>
+        </div><!-- Yorder -->
+      </div>
+    </div>
+
+
+
+  </main>
+  <hr style="color: white;">
+
+  <!-- FOOTER SECTION  -->
+
+
+  <footer class="footer">
+
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
+      <li class="menu__item"><a class="menu__link" href="register.html">Register</a></li>
+      <li class="menu__item"><a class="menu__link" href="products.html">Sneakers</a></li>
+      <li class="menu__item"><a class="menu__link" href="order.html">Order Now</a></li>
+
+
+    </ul>
+    <p>&copy;2024 | All Rights Reserved <br><br> Developed by ABDUL WAHAB</p>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </footer>
